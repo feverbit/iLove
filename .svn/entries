@@ -1,0 +1,84 @@
+10
+
+dir
+2
+https://ilove.googlecode.com/svn/trunk
+https://ilove.googlecode.com/svn
+
+
+
+2011-08-07T16:14:07.567239Z
+2
+feverbit@gmail.com
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+07eb7f55-55c5-8e15-64ad-61c7c1f8a9e0
+
+
+
+
+
+
+0
+
+README
+file
+
+
+
+
+2011-08-07T16:09:36.000000Z
+0d0940b784e4f63e1d34b9949ab0a9b2
+2011-08-07T16:14:07.567239Z
+2
+feverbit@gmail.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+54
+
+WebRoot
+dir
+
+conf
+dir
+
+junit
+dir
+
+lib
+dir
+
+src
+dir
+

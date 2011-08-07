@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 98
+*.class
+applicationContext-ilovecore-dao.xml
+log4j.properties
+mybatis-config.xml
+mysql.properties
+
+END

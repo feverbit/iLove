@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/2/trunk/conf
+END
+mybatis-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/conf/mybatis-config.xml
+END
+applicationContext-ilovecore-dao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/conf/applicationContext-ilovecore-dao.xml
+END
+mysql.properties
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/conf/mysql.properties
+END

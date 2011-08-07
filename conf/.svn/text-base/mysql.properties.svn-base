@@ -1,0 +1,5 @@
+# Mysql 
+mysql.driver=com.mysql.jdbc.Driver
+mysql.url=jdbc:mysql://localhost:3306/ilove
+mysql.user=root
+mysql.pass=
