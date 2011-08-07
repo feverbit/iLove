@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ilove.mapper.HomeMapper">
+
+	<resultMap type="Home" id="homeMap">
+		<id property="id" column="id" />
+		<result property="coverUrl1" column="coverUrl1" />
+		<result property="href1" column="href1" />
+		<result property="coverUrl2" column="coverUrl2" />
+		<result property="href2" column="href2" />
+		<result property="coverUrl3" column="coverUrl3" />
+		<result property="href3" column="href3" />	
+		<result property="lastUpdateTime" column="lastUpdateTime" />		
+	</resultMap>
+
+
+	<!-- 查询Homelist -->
+	<select id="findAllHome" resultMap="homeMap">
+		SELECT * from T_Home;
+	</select>
+
+	<insert id="addNewHome" parameterType="Home">
+		<selectKey keyProperty="id" resultType="int" order="BEFORE">
+			SELECT LAST_INSERT_ID() AS VALUE
+		</selectKey>
+		
+		INSERT INTO T_Home(
+		 id,
+		 coverUrl1,
+		 href1,
+		 coverUrl2,
+		 href2,
+		 coverUrl3,
+		 href3,
+		 lastUpdateTime)
+		VALUES(
+			#{id},
+			#{coverUrl1},
+			#{href1},
+			#{coverUrl2},
+			#{href2},
+			#{coverUrl3},
+			#{href3},
+			#{lastUpdateTime}
+			)
+		
+	</insert>
+</mapper>
